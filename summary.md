@@ -38,6 +38,7 @@
 
 - classBasedView vs functionBasedView
     - classBasedView : 手軽に記述できるが拡張性は低い
+        - TemplateView : django.views.genericファイル内に存在
     - functionBasedView : 1から記述する必要があるが拡張性は高い
 
 </span>
