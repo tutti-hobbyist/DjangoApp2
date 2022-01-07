@@ -1,7 +1,10 @@
 <span style="font-size:120%">
 
 ### Djangoの概要・ポイント
+<hr>
+
 #### ファイル構成
+##### Project
 - `manage.py` : プロジェクトに関する処理を行うファイル
 <br>
 
@@ -32,13 +35,23 @@
     - STATIC_URL : 様々なファイルを読み込むための設定を行うファイルのURL
 <br>
 
-### Tips
+##### App
+- 
+<br>
+
+<hr>
+
+#### Tips
 - `python manage.py runserver`でローカルサーバを起動し、/adminにアクセスした際にエラーが生じる場合は、`python manage.py migrate`でデータベース中でテーブルを作成し、管理画面機能を有効化する
 <br>
 
-- classBasedView vs functionBasedView
+- `view.py`に定義するclassBasedView vs functionBasedView
     - classBasedView : 手軽に記述できるが拡張性は低い
         - TemplateView : django.views.genericファイル内に存在
     - functionBasedView : 1から記述する必要があるが拡張性は高い
+
+- プロジェクト : 全体管理
+- アプリ : 各ホームページ管理
+<br>
 
 </span>
